@@ -7,10 +7,12 @@
   "devDependencies": {
     "@storybook/builder-webpack5": "^6.5.0-alpha.5",
     "@storybook/manager-webpack5": "^6.5.0-alpha.5",
-    "@storybook/react": "^6.5.0-alpha.5"
+    "@storybook/react": "^6.5.0-alpha.5",
+    "@storybook/storybook-deployer": "2.8.10"
   },
   "scripts": {
     "storybook": "start-storybook -p 6007",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   }
 }
